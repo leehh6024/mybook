@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 
-const serverURL = "http://localhost:65010/users";
+const serverURL = "http://localhost:65020/users";
 
 function App() {
   const [userData, setUserData] = useState(null);
