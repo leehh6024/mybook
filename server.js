@@ -36,7 +36,7 @@ const addUser = (req, res) => {
 
 app.get("/", mainPage);
 app.get("/users", listUsers);
-app.post("/user", addUser);
+app.post("/users", addUser);
 
 app.listen(65010, () => {
   console.log("-----------------------------");

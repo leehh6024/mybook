@@ -47,10 +47,11 @@ function App() {
         <h2>회원목록</h2>
         <ol>
           {userData === null ? (
-            <p>서버에서 데이터를 가져오는중 ...</p>
+            <p>서버에서 데이터 가져오는중...</p>
           ) : (
             userData.map((user, i) => (
               <li key={user.keyid}>
+                {" "}
                 {user.name} {user.id} {user.passwd}
               </li>
             ))
